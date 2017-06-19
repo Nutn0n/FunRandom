@@ -34,6 +34,7 @@ FunRandom.annotations = [
     }),
     new ng.View({
       template: `
+
       <title>คุณจะได้ซื้อ {{item.title}} ในปีนี้</title>
       <meta property="og:title"  content="คุณจะได้ซื้อ {{item.title}} "/>
       <meta property="og:description"content=" {{item.info}} "/>
