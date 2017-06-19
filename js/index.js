@@ -28,6 +28,7 @@ function FunRandom() {
     this.generate();
 }
 
+
 FunRandom.annotations = [
     new ng.Component( {
      selector: "random-meta"
@@ -42,6 +43,7 @@ FunRandom.annotations = [
         `
     })
 ];
+
 
 document.addEventListener("DOMContentLoaded",
     function() {
