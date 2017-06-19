@@ -5,19 +5,19 @@ function FunRandom() {
    id: 1,
    title: 'iPhone',
    info:'You will buy an iPhone',
-   img:'iphone'
+   img:'iphone.jpg'
  },
  {
    id: 1,
    title: 'iPad',
    info:'You will buy an iPad',
-   img:'ipad'
+   img:'ipad.jpg'
     },
   {
     id: 1,
     title: 'Mac',
     info:'You will buy a Mac',
-    img:'mac'
+    img:'mac.jpg'
   }
     ];
 
@@ -34,11 +34,11 @@ FunRandom.annotations = [
     }),
     new ng.View({
       template: `
-          <div>
-          meta property="og:title"  content=" {{item.title}} " <br/>
-          meta property="og:description"content=" {{item.info}} "<br/>
-          meta property="og:image"   content=" {{item.img}} "<br/>
-          </div>     `
+      <title>คุณจะได้ซื้อ {{item.title}} ในปีนี้</title>
+      <meta property="og:title"  content="คุณจะได้ซื้อ {{item.title}} "/>
+      <meta property="og:description"content=" {{item.info}} "/>
+      <meta property="og:image"   content=" img/{{item.img}} "/>
+        `
     })
 ];
 
