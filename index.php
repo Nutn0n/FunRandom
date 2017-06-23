@@ -63,6 +63,9 @@ $product = array_rand($products, 1);
 <?php
 	$fb = new FacebookDebugger();
 	$fb->reload($url);
+
+  fb();
+
 ?>
 
 </body>
