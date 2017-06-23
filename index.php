@@ -18,11 +18,10 @@ $url= 'http://beta.spaceth.co/FunRandom';
 
 <body>
 
-<img src="">
-
 
 <h1><?php echo $product; ?></h1>
-<img src="<?php echo $url ?>/img/<?php echo $products[$product]; ?>"></p>
+<img style="display:none; visibility:hidden; opacity:0;" src="<?php echo $url ?>/img/<?php echo $products[$product]; ?>"></p>
+
 
 
 
