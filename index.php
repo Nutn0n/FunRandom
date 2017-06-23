@@ -5,6 +5,9 @@
 
 
 $this_url = "http://beta.spaceth.co/FunRandom/";
+$products = array("iPhone"=>"iPhone.png", "iPad"=>"iPad.png", "Mac"=>"Mac.png");
+
+$product = array_rand($products, 1);
 
 ?>
 
