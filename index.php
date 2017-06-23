@@ -8,10 +8,9 @@ $product = array_rand($products, 1);
 
 
 <title>คุณจะได้ซื้อ <?php echo $product; ?> ในปีนี้</title>
-<meta name="fragment" content="!">
 <meta property="og:title"  content="คุณจะได้ซื้อ <?php echo $product; ?>">
 <meta property="og:description"content="คุณจะได้ซื้อ <?php echo $product; ?> แน่ ๆ ในปีนี้">
-<meta property="og:image"   content=" img/<?php echo $products[$product]; ?> "#!/>
+<meta property="og:image"   content="img/<?php echo $products[$product]; ?> ">
 
 <body>
 
