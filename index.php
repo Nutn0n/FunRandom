@@ -26,8 +26,8 @@ $products = array(
   "Mac Pro"=>"macpro.png",
   "Mac mini"=>"macmini.png",
   "Magic Mouse"=>"magicmouse.png",
-  "Apple TV"=>"tv.png",
-"");
+  "Apple TV"=>"tv.png"
+);
 
 
 /*  Enter the URL of this page. */
