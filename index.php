@@ -5,7 +5,31 @@
 /*  Edit these variable */
 
 /*  Create array of your random items with their images */
-$products = array("iPhone"=>"iphone.png", "iPad"=>"ipad.png", "Mac"=>"mac.png");
+$products = array(
+  "AirPods"=>"airpods.png",
+  "AirPort"=>"airport.png",
+  "Apple Pencil"=>"applepencil.png",
+  "Apple Watch"=>"applewatch.png",
+  "Apple Watch Edition"=>"applewatchedition.png",
+  "Apple Watch Nike"=>"applewatchnike.png",
+  "iPhone Battary Case"=>"battarycase.png",
+  "iPhone Dock"=>"dock.png",
+  "HomePod"=>"homepod.png",
+  "iMac"=>"imac.png",
+  "iMac Pro"=>"imacpro.png",
+  "iPad Pro"=>"ipadpro.png",
+  "iPhone 7"=>"iphone7.png",
+  "iPhone SE"=>"iphonese.png",
+  "MacBook"=>"macbook.png",
+  "MacBook Air"=>"macbookair.png",
+  "MacBook Pro"=>"macbookpro.png",
+  "Mac Pro"=>"macpro.png",
+  "Mac mini"=>"macmini.png",
+  "Magic Mouse"=>"magicmouse.png",
+  "Apple TV"=>"tv.png",
+"");
+
+
 /*  Enter the URL of this page. */
 $this_url= 'http://beta.spaceth.co/FunRandom';
 /*  This is how many of the items will be random ** Don't have to modify **/
