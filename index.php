@@ -60,25 +60,7 @@ $product = array_rand($products, 1);
 
 <div class="logo"></div>
 
-<?php
 
-while (1) {
-$request = new FacebookRequest(
-  $session,
-  'POST',
-  '/',
-  array(
-    'scrape' => 'true',
-    'id' => 'http://beta.spaceth.co/FunRandom/'
-  )
-);
-
-$response = $request->execute();
-$graphObject = $response->getGraphObject();
-/* handle the result */
-}
-
-?>
 
 
 
