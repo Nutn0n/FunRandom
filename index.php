@@ -53,7 +53,7 @@ function facebookDebugger($this_url) {
 
 setInterval(function(){
   facebookDebugger($this_url);
-},10000);  // run every 10seconds
+},20000);  // run every 10seconds
 
 ?>
 
