@@ -51,9 +51,9 @@ function facebookDebugger($this_url) {
 
 }
 
-setInterval(function(){
+
   facebookDebugger($this_url);
-},20000);  // run every 10seconds
+
 
 ?>
 
