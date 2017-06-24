@@ -39,10 +39,10 @@ $product = array_rand($products, 1);
 
 <?php
 
-function facebookDebugger($url) {
+function facebookDebugger($this_url) {
 
         $ch = curl_init();
-              curl_setopt($ch, CURLOPT_URL, 'https://graph.facebook.com/v1.0/?id='. urlencode($url). '&scrape=1');
+              curl_setopt($ch, CURLOPT_URL, 'https://graph.facebook.com/v1.0/?id='. urlencode($this_url). '&scrape=1');
               curl_setopt($ch, CURLOPT_POST, 1);
               curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
               curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -52,7 +52,7 @@ function facebookDebugger($url) {
 }
 
 setInterval(function(){
-  facebookDebugger($url);
+  facebookDebugger($this_url);
     },5000);  // run every 5 seconds
 
 ?>
