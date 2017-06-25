@@ -18,6 +18,9 @@ Now your game will works but Facebook still cache everything. You need to renew 
 
 When you run the command Facebook will renew the OG Debug but only once. You have to run the script in loop by using command ```watch -n 5 **your command here**``` to execute the command every 5 seconds. 
 
+- Open terminal (server or local) 
+- run the command
+
 You may run this command on your own server and let the command keep running in the background using your favourite screening application. 
 
 ## Example of Open Graph Object Renew command.
