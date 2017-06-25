@@ -1,6 +1,8 @@
 # FunRandom
 Random Meta OG for fun!
 
+** REQUIRE PHP ** 
+
 ## How to Use 
 
 - Clone this repository into your location with ```Git clone https://github.com/Nutn0n/FunRandom.git```
