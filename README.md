@@ -20,7 +20,15 @@ When you run the command Facebook will renew the OG Debug but only once. You hav
 
 You may run this command on your own server and let the command keep running in the background using your favourite screening application. 
 
-## 
+## Example of Open Graph Object Renew command.
+
+** Example only do not copy this curl command ** 
+
+```  watch -n 5 curl -i -X POST    -d "scrape=true"    -d "id=http%3A%2F%2Fbeta.s    paceth.co%2FFunRandom"    -d "access_token=EAACEdEose0cBAHTrL2qEYy19JDO2k80m    lZCoEV5ZAcyWZBNQ2fhQP7kmNzrlTgxm0foZBqodBCxsZAflXSDeTHvz2OASOdF29vdGDRMFSGEi    QaZAngPmSOZBln3cfn9hw61Bjy8Xw30sq0fxXLpnxZB9ZAfVo8r3xKn6ZA2XCt3OEnpOxsSNhMJ1    b1HYxRh9ZBPZBZBsZD"    "https://graph.facebook.com/v2.9/"   ```
 
 Code by @Nutn0n - www.nutn0n.com 
+
+
+
+
 
