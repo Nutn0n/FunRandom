@@ -64,8 +64,8 @@ $product_img =  $product->item[$random]->img;
 ?>
 
 <title>คุณจะได้ซื้อสินค้า Apple อะไรในปีนี้</title>
-<meta property="og:title"  content="คุณจะได้ซื้อ <?php echo $product_name ?>">
-<meta property="og:description"content="<?php echo $product_caption; ?>้">
+<meta property="og:title"  content="<?php echo $product_name ?>">
+<meta property="og:description"content="<?php echo $product_caption; ?>">
 <link rel="stylesheet" href="css/style.css"></link>
 <body>
   <div id="fb-root"></div>
