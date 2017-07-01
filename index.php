@@ -66,6 +66,9 @@ $product_img =  $product->item[$random]->img;
 <title>คุณจะได้ซื้อสินค้า Apple อะไรในปีนี้</title>
 <meta property="og:title"  content="<?php echo $product_name ?>">
 <meta property="og:description"content="<?php echo $product_caption; ?>">
+<meta property="og:image"   content="<?php echo $this_url ?>/img/<?php echo $product_img; ?>" />
+
+
 <link rel="stylesheet" href="css/style.css"></link>
 <body>
   <div id="fb-root"></div>
@@ -77,7 +80,6 @@ $product_img =  $product->item[$random]->img;
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-<img class="do-not-display" src="<?php echo $this_url ?>/img/<?php echo $product_img; ?>"></img>
 
 <h1>สุ่มสินค้า Apple ที่คุณอาจจะได้ซื้อในปีนี้</h1>
 <p>มาลองเล่นกันดูว่าในปีนี้คุณมีโอกาสจะได้ซื้อสินค้า Apple ตัวไหน ถ้าอยากรู้ ลองแชร์หน้านี้ไปใน Facebook สิ แล้วสินค้าที่คุณมีโอกาสจะซื้อจะโชว์ขึ้นมา</p>
