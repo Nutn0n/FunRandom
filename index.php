@@ -42,7 +42,7 @@ $json = '
     ]
 }';
 
-
+/* Do you know how to use json ? If no, please know that you don't add " , " after the last item */
 
 /*  STEP 2 : Enter the URL of this page. */
 $this_url= 'http://beta.spaceth.co/FunRandom';
