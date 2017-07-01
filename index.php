@@ -12,32 +12,32 @@ $json = '
         {
           "name": "iPhone 7",
           "caption": "You will buy an iPhone" ,
-          "img": "img/iphone7.png"
+          "img": "iphone7.png"
         },
         {
           "name": "iPad Pro",
           "caption": "You will buy an iPad" ,
-          "img": "img/ipadpro.png"
+          "img": "ipadpro.png"
         },
         {
           "name": "MacBook",
           "caption": "You will buy a MacBook" ,
-          "img": "img/macbook.png"
+          "img": "macbook.png"
         },
         {
           "name": "Apple TV",
           "caption": "You will buy Apple TV" ,
-          "img": "img/tv.png"
+          "img": "tv.png"
         },
         {
           "name": "HomePod",
           "caption": "You will buy HomePod" ,
-          "img": "img/hoempod.png"
+          "img": "hoempod.png"
         },
         {
           "name": "AirPods",
           "caption": "You will buy AirPods" ,
-          "img": "img/airpods.png"
+          "img": "airpods.png"
         }
     ]
 }';
@@ -77,7 +77,7 @@ $product_img =  $product->item[$random]->img;
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-<img class="do-not-display" src="<?php echo $this_url ?>/img/<?php echo $product_img; ?>"></img>
+<img class="do-not-display" src="<?php echo $this_url ?>/<?php echo $product_img; ?>"></img>
 
 <h1>สุ่มสินค้า Apple ที่คุณอาจจะได้ซื้อในปีนี้</h1>
 <p>มาลองเล่นกันดูว่าในปีนี้คุณมีโอกาสจะได้ซื้อสินค้า Apple ตัวไหน ถ้าอยากรู้ ลองแชร์หน้านี้ไปใน Facebook สิ แล้วสินค้าที่คุณมีโอกาสจะซื้อจะโชว์ขึ้นมา</p>
